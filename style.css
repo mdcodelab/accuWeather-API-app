@@ -1,0 +1,50 @@
+body {
+    background-image: url("img/img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+      letter-spacing: 0.2em;
+    font-size: 0.8em;
+    background-attachment:fixed;
+    font-family: "Luna";
+}
+.container{
+max-width: 450px;
+}
+
+h1{
+color: #333;
+font-size: 2rem;
+text-shadow: 1px 1px 1px white;
+width: 100%;
+}
+
+label{
+color: #e5e5e5;
+font-size: 1.23rem;
+padding-bottom: 1rem;
+width: 100%;
+text-shadow: 0.1rem 0.1rem 0 rgba(0,0,0,1);
+}
+
+input[type=text] {
+border: 1px solid darkgreen;
+border-radius: 10px;
+transition: 0.5s ease-in-out;
+text-align: center;
+cursor: pointer;
+}
+
+input[type=text]:hover {
+background-color: lightgray;
+}
+
+.icon{
+position: relative;
+top: -50px;
+border-radius: 50%;
+width: 100px;
+margin-bottom: -50px;
+}
+
+
